@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meok-eu-mobility-package-mcp"
+version = "1.0.0"
+description = "EU Mobility Package compliance — EU 561/2006 drivers' hours, 4-week return-to-base, Posted Workers Directive, IMI declaration, EU 165/2014 Smart Tachograph 2. 27 member states. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "eu-mobility-package", "eu-561-2006", "posted-workers", "imi", "smart-tachograph", "drivers-hours", "european-haulage", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://haulage.app"
+Repository = "https://github.com/CSOAI-ORG/meok-eu-mobility-package-mcp"
+
+[project.scripts]
+meok-eu-mobility-package-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]

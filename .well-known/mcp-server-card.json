@@ -1,0 +1,40 @@
+{
+  "name": "meok-eu-mobility-package-mcp",
+  "title": "Meok Eu Mobility Package Mcp",
+  "description": "EU Mobility Package compliance \u2014 EU 561/2006 drivers' hours, 4-week return-to-base, Posted Workers Directive, IMI declaration, EU 165/2014 Smart Tachograph 2. 27 member states. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_drivers_hours_eu"
+    },
+    {
+      "name": "check_return_to_base_4w"
+    },
+    {
+      "name": "check_vehicle_return_to_base_8w"
+    },
+    {
+      "name": "check_cabotage_3in7"
+    },
+    {
+      "name": "check_smart_tachograph_2_v2"
+    },
+    {
+      "name": "check_imi_posted_worker_declaration"
+    },
+    {
+      "name": "check_working_time_directive"
+    },
+    {
+      "name": "generate_eu_compliance_pack"
+    },
+    {
+      "name": "check_eu_aetr_third_country"
+    }
+  ]
+}

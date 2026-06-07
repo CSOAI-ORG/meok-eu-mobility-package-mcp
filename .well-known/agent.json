@@ -1,0 +1,104 @@
+{
+  "name": "meok-eu-mobility-package-mcp",
+  "description": "EU Mobility Package compliance \u2014 EU 561/2006 drivers' hours, 4-week return-to-base, Posted Workers",
+  "url": "https://proofof.ai/scorecard/meok-eu-mobility-package-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_drivers_hours_eu",
+      "name": "Check Drivers Hours Eu",
+      "description": "check_drivers_hours_eu via meok-eu-mobility-package-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_return_to_base_4w",
+      "name": "Check Return To Base 4W",
+      "description": "check_return_to_base_4w via meok-eu-mobility-package-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_vehicle_return_to_base_8w",
+      "name": "Check Vehicle Return To Base 8W",
+      "description": "check_vehicle_return_to_base_8w via meok-eu-mobility-package-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_cabotage_3in7",
+      "name": "Check Cabotage 3In7",
+      "description": "check_cabotage_3in7 via meok-eu-mobility-package-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_smart_tachograph_2_v2",
+      "name": "Check Smart Tachograph 2 V2",
+      "description": "check_smart_tachograph_2_v2 via meok-eu-mobility-package-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_imi_posted_worker_declaration",
+      "name": "Check Imi Posted Worker Declaration",
+      "description": "check_imi_posted_worker_declaration via meok-eu-mobility-package-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_working_time_directive",
+      "name": "Check Working Time Directive",
+      "description": "check_working_time_directive via meok-eu-mobility-package-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_eu_compliance_pack",
+      "name": "Generate Eu Compliance Pack",
+      "description": "generate_eu_compliance_pack via meok-eu-mobility-package-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_eu_aetr_third_country",
+      "name": "Check Eu Aetr Third Country",
+      "description": "check_eu_aetr_third_country via meok-eu-mobility-package-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# meok-eu-mobility-package-mcp
+
+> EU Mobility Package compliance — EU 561/2006 drivers' hours, 4-week return-to-base, Posted Workers Directive, IMI declaration, EU 165/2014 Smart Tachograph 2. 27 member states. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_drivers_hours_eu
+- check_return_to_base_4w
+- check_vehicle_return_to_base_8w
+- check_cabotage_3in7
+- check_smart_tachograph_2_v2
+- check_imi_posted_worker_declaration
+- check_working_time_directive
+- generate_eu_compliance_pack
+- check_eu_aetr_third_country
+
+## Install
+```
+pip install meok-eu-mobility-package-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-eu-mobility-package-mcp/
+- Docs: https://meok.ai

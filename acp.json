@@ -1,0 +1,27 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-eu-mobility-package-mcp",
+    "description": "EU Mobility Package compliance \u2014 EU 561/2006 drivers' hours, 4-week return-to-base, Posted Workers",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-eu-mobility-package-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_drivers_hours_eu",
+      "check_return_to_base_4w",
+      "check_vehicle_return_to_base_8w",
+      "check_cabotage_3in7",
+      "check_smart_tachograph_2_v2",
+      "check_imi_posted_worker_declaration",
+      "check_working_time_directive",
+      "generate_eu_compliance_pack",
+      "check_eu_aetr_third_country"
+    ]
+  }
+}

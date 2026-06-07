@@ -1,0 +1,36 @@
+name: meok-eu-mobility-package-mcp
+description: 'EU Mobility Package compliance — EU 561/2006 drivers  hours, 4-week return-to-base, Posted Workers'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-eu-mobility-package-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_drivers_hours_eu
+  description: check drivers hours eu
+- name: check_return_to_base_4w
+  description: check return to base 4w
+- name: check_vehicle_return_to_base_8w
+  description: check vehicle return to base 8w
+- name: check_cabotage_3in7
+  description: check cabotage 3in7
+- name: check_smart_tachograph_2_v2
+  description: check smart tachograph 2 v2
+- name: check_imi_posted_worker_declaration
+  description: check imi posted worker declaration
+- name: check_working_time_directive
+  description: check working time directive
+- name: generate_eu_compliance_pack
+  description: generate eu compliance pack
+- name: check_eu_aetr_third_country
+  description: check eu aetr third country
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'
