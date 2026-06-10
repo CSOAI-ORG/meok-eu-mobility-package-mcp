@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-eu-mobility-package-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-eu-mobility-package-mcp"
+      ]
+    }
+  }
+}
