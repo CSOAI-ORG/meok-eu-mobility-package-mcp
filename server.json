@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/meok-eu-mobility-package-mcp",
-  "description": "EU Mobility Package compliance \u2014 EU 561/2006 drivers' hours, 4-week return-to-base, Posted Workers",
+  "description": "EU Mobility Package compliance — EU 561/2006 drivers' hours, 4-week return-to-base, Posted Workers",
   "version": "1.0.0",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/meok-eu-mobility-package-mcp",

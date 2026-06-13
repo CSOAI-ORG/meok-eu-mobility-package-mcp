@@ -1,0 +1,176 @@
+{
+  "name": "Meok Eu Mobility Package Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-eu-mobility-package-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "EU Mobility Package compliance — EU 561/2006 drivers' hours, 4-week return-to-base, Posted Workers Directive, IMI declaration, EU 165/2014 Smart Tachograph 2. 27 member states. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_drivers_hours_eu",
+      "name": "Check Drivers Hours Eu",
+      "description": "Check Drivers Hours Eu — a tool of the meok-eu-mobility-package-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_return_to_base_4w",
+      "name": "Check Return To Base 4W",
+      "description": "Check Return To Base 4W — a tool of the meok-eu-mobility-package-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_vehicle_return_to_base_8w",
+      "name": "Check Vehicle Return To Base 8W",
+      "description": "Check Vehicle Return To Base 8W — a tool of the meok-eu-mobility-package-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_cabotage_3in7",
+      "name": "Check Cabotage 3In7",
+      "description": "Check Cabotage 3In7 — a tool of the meok-eu-mobility-package-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_smart_tachograph_2_v2",
+      "name": "Check Smart Tachograph 2 V2",
+      "description": "Check Smart Tachograph 2 V2 — a tool of the meok-eu-mobility-package-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_imi_posted_worker_declaration",
+      "name": "Check Imi Posted Worker Declaration",
+      "description": "Check Imi Posted Worker Declaration — a tool of the meok-eu-mobility-package-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_working_time_directive",
+      "name": "Check Working Time Directive",
+      "description": "Check Working Time Directive — a tool of the meok-eu-mobility-package-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_eu_compliance_pack",
+      "name": "Generate Eu Compliance Pack",
+      "description": "Generate Eu Compliance Pack — a tool of the meok-eu-mobility-package-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_eu_aetr_third_country",
+      "name": "Check Eu Aetr Third Country",
+      "description": "Check Eu Aetr Third Country — a tool of the meok-eu-mobility-package-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-eu-mobility-package-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
