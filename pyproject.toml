@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-eu-mobility-package-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "EU Mobility Package compliance — EU 561/2006 drivers' hours, 4-week return-to-base, Posted Workers Directive, IMI declaration, EU 165/2014 Smart Tachograph 2. 27 member states. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
@@ -28,3 +28,22 @@ meok-eu-mobility-package-mcp = "server:main"
 
 [tool.setuptools]
 py-modules = ["server"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I", "N"]
+ignore = ["E501"]
+
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_Configs = true
+disallow_untyped_defs = true
+
